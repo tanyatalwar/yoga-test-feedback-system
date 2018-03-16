@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>reponse submitted</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<style type="text/css" media="screen">
+		@font-face
+         {
+	      font-family:'pfonts';
+	      src:url('PatuaOne-Regular.ttf');
+         }
+         .nav
+		{
+			background-color: black;
+			padding-bottom:1%;
+			padding-top: 1%;
+			color: white; 
+			font-size:28px;
+			font-family:'pfonts'; 
+			padding-left: 4%;
+		}
+		.fonts
+		{
+			font-family:'pfonts'; 
+		}	
+	</style>
+	<?php 
+session_start();
+	?>
+</head>
+<body style="max-width:100%;overflow-x:hidden;">
+
+<div class="nav"  style="width:110%;" onclick="location.href='index.php'">
+		YOGA
+</div>
+<div style="margin-top:10%;background-color:#e3e5e8;margin-right:20%;margin-left:20%;font-size:4vh;border-style: solid;" class="fonts">
+	<div style="padding-top:1%;padding-bottom:1%;padding-left:1%;">
+	Your Response is submitted.
+    </div>
+    <div style="font-size:2.5vh;padding-bottom:6%;padding-left:1%;">
+    <a href="retrival.php">	
+    click here to submit other response	
+    </a>
+    </div>	
+</div>
+
+</body>
+</html>
